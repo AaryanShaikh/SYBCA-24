@@ -8,19 +8,40 @@
 </head>
 
 <body>
-    <div style="border: 5px dashed red; padding: 10px; margin: 10px;">
-        <p>This is a sample HTML document.</p>
+    <div style="border:1px solid black;margin:50px;padding: 10px;">
+        content
     </div>
-    <script>
-        let a = 10
-        let b = 20
+    <img src="https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp" />
 
-        for (let i = a; i < b; i++) {
-            if (i == 3) {
-                console.log(i)
-            }
-        }
+    <table border>
+        <thead>
+            <th>Name</th>
+            <th>Roll Number</th>
+            <th>Status</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>12345</td>
+                <td style="color:green">Pass</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>67890</td>
+                <td style="color: red;">Fail</td>
+            </tr>
+        </tbody>
+    </table>
+    <button>click me</button>
+
+    <script>
+        let a = 10;
+        let b = 20;
+
+        let sum = a + b;
+        console.log("Sum:", sum);
     </script>
+
 </body>
 
 </html>
